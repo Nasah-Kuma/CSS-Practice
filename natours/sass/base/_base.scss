@@ -1,0 +1,16 @@
+*,
+**::after,
+**::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;/*change the box model so that the borders and paddings are no longer added to the total width and the total height that we specificy for a box*/
+}
+
+html {
+    font-size: 62.5%;/*root font size defines what 1rem is*/
+}
+
+/* we add properities related to fonts here because they are usually inherited */
+body {
+    box-sizing: border-box;
+}
